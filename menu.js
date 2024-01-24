@@ -1,0 +1,9 @@
+document.getElementById("breakfast").addEventListener("click",function(){
+    window.open("breakfast.html","_blank");
+});
+document.getElementById("veg").addEventListener("click",function(){
+    window.open("veg.html","_blank");
+});
+document.getElementById("nonveg").addEventListener("click",function(){
+    window.open("nonveg.html","_blank");
+});

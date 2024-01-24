@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<header>
+    <nav>
+        <ul class="list">
+            <li><a href="/">Home</a></li>
+            <li><a href="/menu.html" id="#menubtn">Menu</a></li>
+            <li><a href="/registration.html" id="#reservebtn">Reserve</a></li>
+            <li><a href="/about us.html">About Us</a></li>
+            <li><a href="/contact us html">Contact Us</a></li>
+        </ul>
+    </nav>
+</header>
+<body id="body">
+    <div class="reservation form" id="reservationform">
+        <form id="form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name"required><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"required><br><br>
+            <label for="date">Booking Date:</label>
+            <input type="date" id="date" name="date"required><br><br>
+            <label for="time">Booking Time:</label>
+            <input type="time" id="time" name="time"required><br><br>
+            <label for="guest">Guest:</label>
+            <input type="number" id="number" name="number"required><br><br>
+            <label for="contact">Contact Number:</label>
+            <input type="text" id="contact" name="contact"required><br><br>
+            <div>
+                <button onclick="BookTable()" class='bg-orange-600 w-full text-3xl text-white font-bold p-2 rounded-md'>BookTable</button>
+            </div>
+        </form>
+    </div>
+</body>
+<script src="reserve.js">
+</script>
+</html>
